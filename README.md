@@ -4,18 +4,20 @@
 
 Windows 主持端在辦公室區域網路開團，同事透過手機或電腦瀏覽器填寫訂單，主持人集中查看、修改與匯出結果。
 
-> **v1.6.0-rc3 公開測試版已可下載：互動遮罩教學、群組列表、單一 EXE。**
+> **v1.6.0-rc4 公開測試版已可下載：教學閃動修正、每步可按下一步、QR Code 與連結分享。**
 > 本儲存庫是版本公告與下載入口；工具採免費使用、非開源方式發行。
 
 ## 下載與版本
 
-[下載 Windows 程式 EXE（約 20 MB）](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc3/LunchOrderHost_v1.6.0-rc3.exe)
+[下載 Windows 程式 EXE（約 20 MB）](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc4/LunchOrderHost_v1.6.0-rc4.exe)
 
-[版本說明與校驗碼](https://github.com/whiteghostcd/office-lunch-host-releases/releases/tag/v1.6.0-rc3) · [ZIP 下載](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc3/LunchOrderHost_v1.6.0-rc3_portable.zip)
+[版本說明與校驗碼](https://github.com/whiteghostcd/office-lunch-host-releases/releases/tag/v1.6.0-rc4) · [ZIP 下載](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc4/LunchOrderHost_v1.6.0-rc4_portable.zip)
 
-下載 EXE 即可執行；ZIP 解壓後也只有同一個 EXE。首次開啟會遮罩聚焦實際按鈕，依操作帶你完成流程，可隨時退出及重看。教學會實際開團與收團，練習請用測試資料。
+下載 EXE 即可執行；ZIP 解壓後也只有同一個 EXE。首次開啟會遮罩聚焦實際按鈕，可操作或按「下一步」預覽流程，可隨時退出及重看。教學會實際開團與收團，練習請用測試資料。
 
 新安裝的資料與設定自動放在 Windows 使用者 AppData；「資料與授權」可開啟位置與第三方授權。若程式旁已有舊 data，會繼續使用。更新前請備份；換電腦請用備份／還原，單獨複製 EXE 不會帶走訂單。
+
+開團需要讓同事從區網連入；若 Windows 防火牆詢問本訂餐程式，請在可信任的辦公室網路按「允許」，可選範圍時只允許私人網路。
 
 此版尚未簽署程式碼憑證，Windows SmartScreen 可能顯示無法辨識的應用程式。GitHub 自動產生的「Source code」壓縮檔只有本公開庫說明，不包含產品原碼或可執行程式。其他版本見 [Releases 發行頁](https://github.com/whiteghostcd/office-lunch-host-releases/releases)。
 
