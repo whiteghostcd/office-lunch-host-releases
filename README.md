@@ -4,12 +4,16 @@
 
 Windows 主持端在辦公室區域網路開團，同事透過手機或電腦瀏覽器填寫訂單，主持人集中查看、修改與匯出結果。
 
-> **首個公開版本準備中，目前尚未提供程式下載。**
+> **v1.6.0-rc2 公開測試版已可下載。辦公室跨裝置區網實測仍待完成，尚非穩定正式版。**
 > 本儲存庫是版本公告與下載入口；工具採免費使用、非開源方式發行。
 
 ## 下載與版本
 
-公開版本上架後，請到 [Releases 發行頁](https://github.com/whiteghostcd/office-lunch-host-releases/releases) 取得程式、版本說明與 SHA-256 校驗碼。
+[下載 Windows 測試版 ZIP（約 20 MB）](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc2/LunchOrderHost_v1.6.0-rc2_portable.zip)
+
+[版本說明與校驗碼](https://github.com/whiteghostcd/office-lunch-host-releases/releases/tag/v1.6.0-rc2) · [區網實測步驟](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc2/LAN_TEST.txt)
+
+完整解壓並保留 `vendor` 與 `licenses` 資料夾，再執行 EXE。首次開啟提供五步引導；請先使用測試資料。其他版本請見 [Releases 發行頁](https://github.com/whiteghostcd/office-lunch-host-releases/releases)。
 
 請依該版本的說明下載 Windows 程式壓縮檔。GitHub 自動產生的「Source code」壓縮檔只包含本儲存庫的說明文件，並不是訂餐程式，也不包含產品原始碼。
 
@@ -55,4 +59,4 @@ Windows 主持端在辦公室區域網路開團，同事透過手機或電腦瀏
 
 ## 原始碼與授權
 
-本公開儲存庫只提供說明、版本公告及發行檔，產品原始碼不公開，未採用開源授權。正式使用條款與第三方元件授權說明將隨發行檔提供。
+本公開儲存庫只提供說明、版本公告及發行檔，產品原始碼不公開，未採用開源授權。免費使用說明及第三方元件授權隨發行檔提供；第三方套件仍依各自授權提供。
