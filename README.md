@@ -20,6 +20,17 @@ Windows 主持端在辦公室區域網路開團，同事透過手機或電腦瀏
 >
 > 這與開團時要求區網存取權限的「Windows 防火牆」提示不同。[Microsoft 的 SmartScreen 說明](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation)。
 
+### 🌐 開團時為什麼會出現「Windows 防火牆」提示？
+
+> [!NOTE]
+> **因為同事的手機與電腦，需要透過辦公室區網連到主持人的這台電腦填單。**
+>
+> 按「開始訂餐」後，這台電腦會提供訂餐網頁。Windows 防火牆可能因此詢問是否允許本程式接受網路連線；若未允許，同事可能無法開啟訂餐連結或 QR Code 對應的網頁。
+>
+> **確認提示中的程式是 `LunchOrderHost`，且目前連的是可信任的辦公室網路後，再按「允許存取／允許」。**若畫面可選網路類型，只勾選「私人網路」，不必開放公用網路；公司統一管理的電腦或網路，請由資訊人員依規範設定。
+>
+> **不需要關閉整個防火牆，也不需要設定路由器對外轉發。**這項權限是為了區網填單，與上方因簽章／下載信譽而出現的 SmartScreen 小藍窗是兩回事；即使日後完成簽章，仍可能需要允許區網連線。
+
 [下載 Windows 程式 EXE（約 20 MB）](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc4/LunchOrderHost_v1.6.0-rc4.exe)
 
 [版本說明與校驗碼](https://github.com/whiteghostcd/office-lunch-host-releases/releases/tag/v1.6.0-rc4) · [ZIP 下載](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc4/LunchOrderHost_v1.6.0-rc4_portable.zip)
@@ -27,8 +38,6 @@ Windows 主持端在辦公室區域網路開團，同事透過手機或電腦瀏
 下載 EXE 即可執行；ZIP 解壓後也只有同一個 EXE。首次開啟會遮罩聚焦實際按鈕，可操作或按「下一步」預覽流程，可隨時退出及重看。教學會實際開團與收團，練習請用測試資料。
 
 新安裝的資料與設定自動放在 Windows 使用者 AppData；「資料與授權」可開啟位置與第三方授權。若程式旁已有舊 data，會繼續使用。更新前請備份；換電腦請用備份／還原，單獨複製 EXE 不會帶走訂單。
-
-開團需要讓同事從區網連入；若 Windows 防火牆詢問本訂餐程式，請在可信任的辦公室網路按「允許」，可選範圍時只允許私人網路。
 
 GitHub 自動產生的「Source code」壓縮檔只有本公開庫說明，不包含產品原碼或可執行程式。其他版本見 [Releases 發行頁](https://github.com/whiteghostcd/office-lunch-host-releases/releases)。
 
