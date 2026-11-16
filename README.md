@@ -9,6 +9,17 @@ Windows 主持端在辦公室區域網路開團，同事透過手機或電腦瀏
 
 ## 下載與版本
 
+### 🟦 開啟時可能出現「Windows 已保護您的電腦」
+
+> [!IMPORTANT]
+> **開發者的荷包還沒解鎖簽章憑證 😅，目前版本尚未購買並使用正式的程式碼簽章憑證。**
+>
+> 因此，下載後開啟時，Windows SmartScreen **可能顯示「Windows 已保護您的電腦」或「無法辨識的應用程式」**。這是目前未簽章、尚未建立足夠下載信譽時可能遇到的提示，並不等於 Windows 已偵測到病毒；也不能僅憑這段說明認定檔案安全。
+>
+> **請只從本儲存庫的 Releases 下載，並核對該版本的 `SHA256SUMS.txt`。**若顯示的是病毒／惡意程式偵測，請先停止執行並回報；公司電腦請依資訊管理政策處理，不要停用安全防護。
+>
+> 這與開團時要求區網存取權限的「Windows 防火牆」提示不同。[Microsoft 的 SmartScreen 說明](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation)。
+
 [下載 Windows 程式 EXE（約 20 MB）](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc4/LunchOrderHost_v1.6.0-rc4.exe)
 
 [版本說明與校驗碼](https://github.com/whiteghostcd/office-lunch-host-releases/releases/tag/v1.6.0-rc4) · [ZIP 下載](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc4/LunchOrderHost_v1.6.0-rc4_portable.zip)
@@ -19,7 +30,7 @@ Windows 主持端在辦公室區域網路開團，同事透過手機或電腦瀏
 
 開團需要讓同事從區網連入；若 Windows 防火牆詢問本訂餐程式，請在可信任的辦公室網路按「允許」，可選範圍時只允許私人網路。
 
-此版尚未簽署程式碼憑證，Windows SmartScreen 可能顯示無法辨識的應用程式。GitHub 自動產生的「Source code」壓縮檔只有本公開庫說明，不包含產品原碼或可執行程式。其他版本見 [Releases 發行頁](https://github.com/whiteghostcd/office-lunch-host-releases/releases)。
+GitHub 自動產生的「Source code」壓縮檔只有本公開庫說明，不包含產品原碼或可執行程式。其他版本見 [Releases 發行頁](https://github.com/whiteghostcd/office-lunch-host-releases/releases)。
 
 ## 適合什麼情境？
 
