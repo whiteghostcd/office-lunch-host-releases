@@ -4,7 +4,7 @@
 
 Windows 主持端在辦公室區域網路開團，同事透過手機或電腦瀏覽器填寫訂單，主持人集中查看、修改與匯出結果。
 
-> **v1.6.0-rc4 公開測試版已可下載：教學閃動修正、每步可按下一步、QR Code 與連結分享。**
+> **v1.6.0-rc5 公開測試版已可下載：群組分裝明細逐人、逐筆列出，水餃與鍋貼不再混成一列。**
 > 本儲存庫是版本公告與下載入口；工具採免費使用、非開源方式發行。
 
 ## 下載與版本
@@ -31,9 +31,9 @@ Windows 主持端在辦公室區域網路開團，同事透過手機或電腦瀏
 >
 > **不需要關閉整個防火牆，也不需要設定路由器對外轉發。**這項權限是為了區網填單，與上方因簽章／下載信譽而出現的 SmartScreen 小藍窗是兩回事；即使日後完成簽章，仍可能需要允許區網連線。
 
-[下載 Windows 程式 EXE（約 20 MB）](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc4/LunchOrderHost_v1.6.0-rc4.exe)
+[下載 Windows 程式 EXE（約 20 MB）](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc5/LunchOrderHost_v1.6.0-rc5.exe)
 
-[版本說明與校驗碼](https://github.com/whiteghostcd/office-lunch-host-releases/releases/tag/v1.6.0-rc4) · [ZIP 下載](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc4/LunchOrderHost_v1.6.0-rc4_portable.zip)
+[版本說明與校驗碼](https://github.com/whiteghostcd/office-lunch-host-releases/releases/tag/v1.6.0-rc5) · [ZIP 下載](https://github.com/whiteghostcd/office-lunch-host-releases/releases/download/v1.6.0-rc5/LunchOrderHost_v1.6.0-rc5_portable.zip)
 
 下載 EXE 即可執行；ZIP 解壓後也只有同一個 EXE。首次開啟會遮罩聚焦實際按鈕，可操作或按「下一步」預覽流程，可隨時退出及重看。教學會實際開團與收團，練習請用測試資料。
 
@@ -47,6 +47,10 @@ GitHub 自動產生的「Source code」壓縮檔只有本公開庫說明，不�
 - 希望減少在群組訊息中逐筆抄寫、加總的工作。
 - 有一台可在訂餐期間保持運作的 Windows 電腦。
 - 主持端與填單者能使用互通的辦公室網路；手機通常需要連辦公室 Wi-Fi。
+
+## 分裝明細與總量
+
+群組頁與匯出的「分群組分裝明細」保留姓名及每筆訂餐；同一人填寫多列相同餐點也分列保留。整體統計仍提供品項總量，方便向店家訂餐。兩盒各 10 顆請填兩列，每列數量 10；程式不會自行推測盒數。
 
 ## 使用流程
 
